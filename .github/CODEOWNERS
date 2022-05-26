@@ -2,4 +2,4 @@
 # directory at the root of the repository and any of its
 # subdirectories.
 /dbt-live/models/staging @belasobral93
-/dbt-live/models/marts @testuser
+/dbt-live/models/marts @belasobral93
