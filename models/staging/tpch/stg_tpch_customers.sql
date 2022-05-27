@@ -3,8 +3,9 @@ with source as (
     select * from {{ source('tpch', 'customer') }}
 
 ),
+,
 
-renamez as (
+renamed as (
 
     select
     
@@ -21,4 +22,4 @@ renamez as (
 
 )
 
-select * from renamez
+select * from renamed
