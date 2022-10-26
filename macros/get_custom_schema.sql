@@ -1,5 +1,5 @@
 {#
-    Render a schema name given a custom schema name. In production, this macro
+    Renders a schema name given a custom schema name. In production, this macro
     will render out the overriden schema name for a model. Otherwise, the default
     schema specified in the active target is used.
 
