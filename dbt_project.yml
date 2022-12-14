@@ -47,6 +47,7 @@ models:
   
   tpch:
     staging:
+      +schema: custom_schema
       +materialized: view
 
     marts:
