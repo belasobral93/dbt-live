@@ -1,3 +1,8 @@
+{{
+    config(
+        schema='sales'
+    )
+}}
 
 with orders as (
     
